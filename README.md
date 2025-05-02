@@ -1,6 +1,12 @@
 # GNR_602_Course_Project_Spring
 
-Objective: Developed a lightweight object detection system to distinguish airplanes from non-airplane scenes in high-resolution satellite imagery, with golf courses treated as negative examples for binary classification.
+# Objective: 
+- Developed a lightweight object detection system to distinguish airplanes from non-airplane scenes in high-resolution satellite imagery, with golf courses treated as negative examples for binary classification.
+
+ # **GUI LINK: https://6654f9005acbeb6063.gradio.live/**
+ 
+# Flowchart 
+
 1. Custom HOG Feature Extraction:
 
 - Manually computed image gradients using the Sobel operator.
@@ -35,32 +41,40 @@ Objective: Developed a lightweight object detection system to distinguish airpla
 - Built an interactive interface using Gradio.
 - Enabled visual inspection of HOG features to understand classification decisions.
 
-  **Instruction to see visualization of image**
+  # " **Instruction to see visualization of image** " 
 
-  To see the visualization, Please upload the (.tif) file in the user interface given in the colab or just change the path in def main():
+  - To see the visualization, Please upload the (.tif) file in the user interface.
+  - to visualize in kaggle give the path link of the image like this:  Load test image and detect
+    test_img_path = "/kaggle/input/uc-merced-land-use-dataset/UCMerced_LandUse/Images/airplane/airplane28.tif"
+  - try running the code in the Kaggle, since you will get the UC merced dataset there: /kaggle/input/uc-merced-land-use-dataset
+  - and change the path in def main():
     dataset_dir = "/kaggle/input/uc-merced-land-use-dataset/UCMerced_LandUse/Images"
     print("Loading training data from UC Merced dataset...")
 
-Results: 
- 1. For Hog and Object detection
+# Results: 
+ 1. For Hog and Object detection:
+    
   ![image](https://github.com/user-attachments/assets/e6d33095-3a4d-48af-be58-7ba1479f15c1)
   ![image](https://github.com/user-attachments/assets/4d44c672-d572-4f4e-9e60-06359899d641)
 
-  3. ![image](https://github.com/user-attachments/assets/7bd21528-e4a5-4f4b-86d5-d0d14c1f37d9)
+  3. Multi Object detection:
+     
+     ![image](https://github.com/user-attachments/assets/7bd21528-e4a5-4f4b-86d5-d0d14c1f37d9)
 
-  4. For Hog visualization: ![image](https://github.com/user-attachments/assets/abb36a18-5ad5-4711-8cfb-d1913a9b996d)
-  5. For building:
+  5. For Hog visualization:
+     
+     ![image](https://github.com/user-attachments/assets/abb36a18-5ad5-4711-8cfb-d1913a9b996d)
+  7. For building:
+
      ![image](https://github.com/user-attachments/assets/f6fe1025-e09e-4eb1-8f89-5bb8b7502d6a)
      ![image](https://github.com/user-attachments/assets/4690e4e7-3e87-4db4-afe4-acda0d2fc304)
 
-_Some Important Instruction_: 
-1. try running the code in the Kaggle, since you will get the UC merced dataset there: /kaggle/input/uc-merced-land-use-dataset
-2. **GUI LINK: https://6654f9005acbeb6063.gradio.live/**
 
-Collaborators: 
-1. Priya Nemani (24m0313)
+# Collaborators: 
+
+**1. Priya Nemani (24m0313)
 2. Rita Mahato ( 24m0315)
-3. Hareesh Matta (24m0304)
+3. Hareesh Matta (24m0304)**
 
 
 
