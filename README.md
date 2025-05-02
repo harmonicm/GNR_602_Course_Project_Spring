@@ -53,6 +53,15 @@ Results:
      ![image](https://github.com/user-attachments/assets/f6fe1025-e09e-4eb1-8f89-5bb8b7502d6a)
      ![image](https://github.com/user-attachments/assets/4690e4e7-3e87-4db4-afe4-acda0d2fc304)
 
+_Some Important Instruction_: 
+1. try running the code in the Kaggle, since you will get the UC merced dataset there: /kaggle/input/uc-merced-land-use-dataset
+2. **GUI LINK: https://6654f9005acbeb6063.gradio.live/**
+
+Collaborators: 
+1. Priya Nemani (24m0313)
+2. Rita Mahato ( 24m0315)
+3. Hareesh Matta (24m0304)
+
 
 
 
